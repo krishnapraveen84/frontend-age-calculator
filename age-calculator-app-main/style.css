@@ -1,0 +1,115 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e1e3e3;
+    height: 100vh;
+
+    
+}
+
+.age-container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 15px;
+    height: 70vh;
+    padding-top: 15px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 150px;
+}
+
+
+.top-container{
+    display: flex;
+    
+}
+
+
+.input-card{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.label{
+    font-size: 13px;
+    margin-bottom: 4px;
+    font-weight: 501;
+    font-family: 'Roboto';
+    color: gray;
+}
+
+.input-box{
+    padding-left: 15px;
+    height: 35px;
+    width: 70px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+.line-container{
+    
+    padding-left: 33px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.line{
+    color: lightgray;
+    border-style: solid;
+    width: 370px;
+
+}
+svg{
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    background-color: hwb(259 30% 0%);
+    border-radius: 100px;
+}
+
+.heading{
+    font-size: 70px;
+    margin: 8px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: bold;
+    
+}
+.value{
+    font-size: 70px;
+    margin: 10px;
+    letter-spacing: 6px;
+    color: hwb(259 30% 0%)
+}
+
+.date-container{
+    padding-left: 25px;
+    align-self: flex-start;
+}
+.attribution{
+    margin-top: 40px;
+    
+}
+
+.error{
+    border-color: red;
+    font-size: 10px;
+    color: red;
+}
